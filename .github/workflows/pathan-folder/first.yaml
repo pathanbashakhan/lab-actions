@@ -1,0 +1,12 @@
+name: first yaml file
+on:
+    push:
+jobs:
+    job1:
+    runs-on: ubuntu-latest
+    steps:
+     - name: my yaml file
+       run: |
+        echo "this is pathan first yaml file"
+                
+    
